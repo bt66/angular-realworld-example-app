@@ -14,5 +14,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "tests/a.txt,tests/b.txt"
+        source: "/home/runner/work/angular-realworld-example-app/angular-realworld-example-app"
         target: "test"

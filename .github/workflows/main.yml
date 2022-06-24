@@ -31,6 +31,6 @@ jobs:
         script: |
           cd projectName
           cp ../docker_tempelate/angularDockerfile Dockerfile
-          docker build -t registry.carakan.id/projecName:v1.0 .
+          docker build -t registry.carakan.id/projec-name:v1.0 .
           docker login ${{ secrets.DOCKER_REGISTRY }} -u ${{ secrets.DOCKER_REGISTRY_USERNAME }} -p ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
-          docker push registry.carakan.id/projecName:v1.0
+          docker push registry.carakan.id/projec-name:v1.0

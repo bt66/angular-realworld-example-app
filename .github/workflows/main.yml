@@ -3,8 +3,8 @@ on: [push]
 
 jobs:
 
-  build:
-    name: Build
+  build-on-vm:
+    name: build-on-vm
     runs-on: ubuntu-latest
     steps:
 

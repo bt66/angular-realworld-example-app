@@ -4,9 +4,6 @@ on: [push]
 jobs:
 
   build-on-vm:
-    name: build-on-vm
-    runs-on: ubuntu-latest
-    steps:
 
     - name: executing remote ssh commands using password
       uses: ./
